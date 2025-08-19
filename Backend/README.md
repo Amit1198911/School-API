@@ -97,6 +97,7 @@ School-API/
 ├── package.json
 └── README.md
 ```
+
 ## Contact
 
 For any questions or suggestions, feel free to reach out:
