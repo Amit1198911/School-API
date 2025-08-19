@@ -42,8 +42,6 @@ const addSchool = async (req, res) => {
 
 const listSchools = async (req, res) => {
   try {
-    console.log('listSchools query params:', req.query.lat, req.query.lng);
-    
     const latParam = req.query.lat;
     const lngParam = req.query.lng;
     if (latParam === undefined || lngParam === undefined) {
@@ -84,14 +82,6 @@ const listSchools = async (req, res) => {
       longitude: r.longitude,
       distance_km: r.distance_km !== null ? Number(r.distance_km.toFixed(3)) : null
     }));
-
-    console.log({
-        userLat,
-        userLng,
-        limit,
-        offset,
-        params
-    });
 
 
     return res.status(200).json({ success: true, count: result.length, data: result });
