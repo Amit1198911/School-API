@@ -89,17 +89,18 @@ DB_PORT=
 
 ```
 ## Project Structure
+```
 School-API/
-├── src/
+├── src
 │   ├── controllers   
-│   ├── db                              
+│   ├── db           
 │   ├── routes       
-│   ├── server.js                                
+│   ├── server.js        
 ├── .env
 ├── .gitignore
 ├── package.json
 └── README.md
-
+```
 ## Contact
 
 For any questions or suggestions, feel free to reach out:
