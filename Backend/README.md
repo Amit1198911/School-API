@@ -33,10 +33,6 @@
 git clone https://github.com/Amit1198911/School-API.git
 cd School-API
 npm install
-# or
-yarn install
-PORT=3000
-DATA_SOURCE=path/to/schools.json
 ```
 ## Configuration
 
